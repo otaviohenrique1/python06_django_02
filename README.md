@@ -49,3 +49,4 @@ Projeto do curso "Django persistência de dados e Admin" da Alura
 - python manage.py collectstatic => cria arquivos estaticos
 - python manage.py makemigrations => cria a migration
 - python manage.py migrate => roda a migration
+- python manage.py shell => abre o shell do Django
