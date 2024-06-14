@@ -9,6 +9,10 @@ Projeto do curso "Django persistência de dados e Admin" da Alura
 
 ## Comandos
 
+### Criar venv
+
+- python -m virtualenv .venv
+
 ### Ativar venv
 
 - venv\scripts\activate
@@ -24,14 +28,24 @@ Projeto do curso "Django persistência de dados e Admin" da Alura
 
 - pip install django
 - pip install python-dotenv
+- pip install virtualenv
+
+## Exibir pacotes instalados
+
 - pip freeze
 - pip freeze > requirements.txt
 
+## Instalar pacotes
+
+- pip install -r requirements.txt
+
 ### Comandos do Django
 
-- django-admin help
-- django-admin startproject setup .
-- python manage.py runserver
-- python manage.py help
-- python manage.py startapp galeria
-- python manage.py collectstatic
+- django-admin help => ajuda
+- django-admin startproject setup . => cria o projeto
+- python manage.py runserver => roda o server
+- python manage.py help => ajuda
+- python manage.py startapp galeria => cria um app
+- python manage.py collectstatic => cria arquivos estaticos
+- python manage.py makemigrations => cria a migration
+- python manage.py migrate => roda a migration
