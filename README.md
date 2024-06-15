@@ -50,3 +50,4 @@ Projeto do curso "Django persistência de dados e Admin" da Alura
 - python manage.py makemigrations => cria a migration
 - python manage.py migrate => roda a migration
 - python manage.py shell => abre o shell do Django
+- python manage.py createsuperuser => cria o super usuario
