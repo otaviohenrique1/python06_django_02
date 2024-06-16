@@ -13,7 +13,8 @@ def index(request):
     #         "legenda": "nasa.org / NASA / Hubble",
     #     },
     # }
-    fotografias = Fotografia.objects.all()
+    # fotografias = Fotografia.objects.all()
+    fotografias = Fotografia.objects.order_by("-data_fotografia").filter(publicada=True)
     return render(request, "galeria/index.html", {"cards": fotografias})
 
 
